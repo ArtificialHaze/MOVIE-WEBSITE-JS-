@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/css/bootstrap.min.css"
+      integrity="sha512-siwe/oXMhSjGCwLn+scraPOWrJxHlUgMBMZXdPe2Tnk3I0x3ESCoLz7WZ5NTH6SZrywMY+PB1cjyqJ5jAluCOg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    /> -->
+    <!-- <link 
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"
+      integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Main</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="./practice.html" class="logo">
+        <img
+          src="./assets/images/logo.svg"
+          alt="Logo"
+          height="32"
+          width="100"
+        />
+      </a>
+      <div class="search-box" search-box>
+        <div class="search-wrapper" search-wrapper>
+          <input
+            type="text"
+            name="search"
+            aria-label="search movies"
+            placeholder="Search.."
+            class="search-field"
+            search-field
+            autocomplete="off"
+          />
+          <img
+            src="./assets/images/search.png"
+            width="24"
+            height="24"
+            class="leading-icon"
+            alt="Icon"
+          />
+        </div>
+        <button class="search-btn" search-toggler>
+          <img
+            src="./assets/images/close.png"
+            alt="Icon"
+            width="24"
+            height="24"
+          />
+        </button> 
+      </div>
+      <button class="search-btn" search-toggler menu-close>
+        <img
+          src="./assets/images/search.png"
+          alt="Icon"
+          width="24"
+          height="24"
+        />
+      </button>
+      <button class="menu-btn" menu-btn menu-toggler>
+        <img
+          src="./assets/images/menu.png"
+          class="menu"
+          alt="Menu"
+          width="24"
+          height="24"
+        />
+        <img
+          src="./assets/images/menu-close.png"
+          alt="Icon"
+          width="24"
+          height="24"
+          class="close"
+        />
+      </button>
+    </header>
+    <nav class="sidebar" sidebar>
+      <div class="sidebar-inner">
+        <div class="sidebar-list">
+          <p class="title">Genre</p>
+          <a menu-close href="./movie-list.html" class="sidebar-link"
+            >Action
+          </a>
+          <a menu-close href="./movie-list.html" class="sidebar-link"
+            >Horror
+          </a>
+          <a menu-close href="./movie-list.html" class="sidebar-link"
+            >Comedy
+          </a>
+          <a menu-close href="./movie-list.html" class="sidebar-link"
+            >Adventure
+          </a>
+          <a menu-close href="./movie-list.html" class="sidebar-link">Drama </a>
+          <a menu-close href="./movie-list.html" class="sidebar-link"
+            >Sci-Fi
+          </a>
+        </div>
+        <div class="sidebar-list">
+          <p class="title">Language</p>
+          <a menu-close href="./movie-list.html" class="sidebar-link"
+            >English
+          </a>
+          <a menu-close href="./movie-list.html" class="sidebar-link"
+            >French
+          </a>
+          <a menu-close href="./movie-list.html" class="sidebar-link"
+            >German
+          </a>
+          <a menu-close href="./movie-list.html" class="sidebar-link"
+            >Spanish
+          </a>
+        </div>
+        <div class="sidebar-footer">
+          <p class="copyright">
+            &copy; 2023, created by <span>DreamDevs</span>. all rights reserved.
+          </p>
+          <img
+            src="./assets/images/tmdb-logo.svg"
+            width="130"
+            height="17"
+            alt="Logo"
+          />
+        </div>
+      </div>
+    </nav>
+    <div class="overlay" overlay menu-toggler></div>
+    <article class="container" page-content>
+       
+    </article>
+  </body>
+  <script src="./practice.js" defer></script>
+</html>
