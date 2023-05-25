@@ -1,2 +1,2 @@
 # MOVIE-WEBSITE-JS-
-Complex movie website using API (TheMovieDB).
+Complex movie website using API (TheMovieDB) [IN-PROGRESS].
